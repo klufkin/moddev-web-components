@@ -1,1 +1,54 @@
+.button {
+	box-sizing: border-box;
+    display: inline-block;
+    min-width: 10rem;
+    min-height: 2.618rem;
+    padding: 10px 23px;
+    margin: .4rem .1rem;
 
+    border: 0;
+    border-bottom: 3px solid #ababab;
+    border-radius: 7px;
+
+    background-color: #e3e3e3;
+
+    font-size: 1rem;
+    font-family: "Raleway", sans-serif;
+    font-weight: 500;
+    text-align: center;
+    text-transform: uppercase;
+    color: #676767;
+    text-decoration: inherit;
+}
+
+.button:hover {
+  padding: 12px 23px;
+	background-color: #ababab;
+  color: #fff;
+}
+
+.button:active {
+	padding: 12px 23px;
+	border-bottom: 3px solid #555;
+	background-color: #555;
+  color: #fff;
+}
+
+.button-sm {
+	width: 8rem;
+  font-size: .8rem;
+	min-height: 1.618rem;
+}
+
+.buttom-md{
+	/* applies normal button styels*/
+}
+
+.button-lg {
+	letter-spacing: 1px;
+    height: 3.2rem;
+    width: 16rem;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    font-size: 1.32rem;
+}
